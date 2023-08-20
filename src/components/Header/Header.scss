@@ -1,0 +1,20 @@
+//Colors//
+$headerColor: #212529;
+$titleColor: white;
+$logoColor: #198754;
+
+header {
+  height: 80px;
+  background-color: $headerColor;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1 {
+    color: $titleColor;
+  }  
+  .logo {
+    font-size: 37px;
+    color: $logoColor;
+    margin-right: 10px;
+  }
+}
