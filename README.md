@@ -11,3 +11,4 @@ Proyecto creado a partir del curso práctico de JavaScript en Platzi realizado e
 ## 02 Figuras Geométricas (August 20)
 
 - PMAT-03: **Agregando ejercicio de perimetro de un cuadrado con Use Stage**.
+- PMAT-03.1: **Probando el gráfico lineal en componente**.
