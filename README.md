@@ -12,3 +12,4 @@ Proyecto creado a partir del curso práctico de JavaScript en Platzi realizado e
 
 - PMAT-03: **Agregando ejercicio de perimetro de un cuadrado con Use Stage**.
 - PMAT-03.1: **Probando el gráfico lineal en componente**.
+- PMAT-03.2: **Agregando React Router Dom al proyecto**.

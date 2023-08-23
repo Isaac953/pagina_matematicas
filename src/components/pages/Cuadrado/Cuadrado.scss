@@ -1,6 +1,6 @@
-//Colors//
-$mainColor: #1450A3;
-$mainTxtColor: white;
+// //Colors//
+// $mainColor: #1450A3;
+// $mainTxtColor: white;
 
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
@@ -8,18 +8,18 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0; 
 }
 
-main {
-    height: 100vh;
-    background-color: $mainColor;
-    color: $mainTxtColor;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    h1{
-        margin: 10px 0px;
-    }
-}
+// main {
+//     height: 100vh;
+//     background-color: $mainColor;
+//     color: $mainTxtColor;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: flex-start;
+//     align-items: center;
+//     h1{
+//         margin: 10px 0px;
+//     }
+// }
 
 .cuadrado {
     display: flex;

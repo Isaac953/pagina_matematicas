@@ -13,7 +13,7 @@ export const Cuadrado = () => {
   };
 
   return (
-    <main>
+    <section>
       <h1>{mainTittle}</h1>
       <div className="cuadrado">
         <label>Ingresar la medida del lado</label>
@@ -57,6 +57,6 @@ export const Cuadrado = () => {
         >Generar tendencia</button>
         <LineChart></LineChart>
       </div>
-    </main>
+    </section>
   );
 };

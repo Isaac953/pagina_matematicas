@@ -1,7 +1,7 @@
 import React from "react";
-import "./Main.scss";
+import "./Home.scss";
 
-export const Main = () => {
+export const Home = () => {
   const mainTittle = "Talleres";
   const buttonTittle = "Contenido";
   let listTalleres = [
@@ -37,11 +37,13 @@ export const Main = () => {
   // let listTalleres = ["Figuras geométricas", "Precios y descuentos", "Promedio, moda y mediana", "Analisis salarial"];
 
   return (
-    <main>
+    <section>
+
+
       <h1>{mainTittle}</h1>
       <section className="taller-grid">
         {listTalleres.map((item) => (
-          <div className="taller-card">
+          <div key={item} className="taller-card">
             <figure>Logo</figure>
             <div className="taller-card__details">
               <h2>{item.title}</h2>
@@ -57,6 +59,6 @@ export const Main = () => {
           ))}
         </ul> */}
       </section>
-    </main>
+    </section>
   );
 };
