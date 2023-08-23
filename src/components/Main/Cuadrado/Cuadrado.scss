@@ -1,0 +1,27 @@
+//Colors//
+$mainColor: #1450A3;
+$mainTxtColor: white;
+
+main {
+    height: 100vh;
+    background-color: $mainColor;
+    color: $mainTxtColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    h1{
+        margin: 10px 0px;
+    }
+}
+
+.cuadrado {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    // height: 80px;
+    border-radius: 10px;
+    border: 1px solid white;
+    justify-content: space-evenly;
+    padding: 15px;
+}

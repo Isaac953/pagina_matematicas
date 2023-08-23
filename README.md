@@ -9,3 +9,5 @@ Proyecto creado a partir del curso práctico de JavaScript en Platzi realizado e
 - PMAT-02.5: **Deploy de aplicación en Git Hub pages**.
 
 ## 02 Figuras Geométricas (August 20)
+
+- PMAT-03: **Agregando ejercicio de perimetro de un cuadrado con Use Stage**.
