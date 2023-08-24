@@ -16,6 +16,9 @@ export const Header = () => {
 
       <nav>
         <ul>
+        <li>
+            <Link to="/apitest">Api Test</Link>
+          </li>
           <li>
             <Link to="/cuadrado">Cuadrado</Link>
           </li>
