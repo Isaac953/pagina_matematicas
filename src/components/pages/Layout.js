@@ -4,6 +4,7 @@ import "./Layout.scss";
 import { Home } from "./Home/Home";
 import { Cuadrado } from "./Cuadrado/Cuadrado";
 import { Apitest } from "./Apitest/Apitest"
+import { Container } from "./Container/Container";
 
 export const Layout = () => {
   return (
@@ -13,6 +14,7 @@ export const Layout = () => {
         <Route path="/home" element={<Home />}></Route>
         <Route path="/cuadrado" element={<Cuadrado />}></Route>
         <Route path="/apitest" element={<Apitest />}></Route>
+        <Route path="/container" element={<Container />}></Route>
       </Routes>
     </main>
   );
