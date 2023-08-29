@@ -10,7 +10,7 @@ export const Layout = () => {
   return (
     <main>
       <Routes>
-        <Route path="*" element={<Navigate to="/cuadrado" />}></Route>
+        <Route exact path="*" element={<Navigate to="/cuadrado" />}></Route>
         <Route path="/home" element={<Home />}></Route>
         <Route path="/cuadrado" element={<Cuadrado />}></Route>
         <Route path="/apitest" element={<Apitest />}></Route>
