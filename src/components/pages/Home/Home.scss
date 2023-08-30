@@ -1,6 +1,20 @@
 // //Colors//
-// $mainColor: #1450A3;
-// $mainTxtColor: white;
+$CardColor: hsla(191, 9%, 34%, 0.5);
+$BoxShadow: 0 4px 8px 0 rgba(0, 0, 0, 0.35),
+0 6px 20px 0 rgba(0, 0, 0, 0.25);
+
+.home{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    // background-color: red;
+    h1{
+        margin: 10px 0px;
+        // border: 1px solid green;
+    }
+}
 
 // main {
 //     height: 100vh;
@@ -15,38 +29,69 @@
 //     }
 // }
 
-.taller-grid {
+.home__grid {
     display: grid;
     width: 100%;
-    height: inherit;
+    // height: inherit;
     grid-template-columns: auto auto;
     justify-content: center;
     align-items: center;
+    // border: 1px solid blue;
+    padding: 15px 0px;
 }
 
-.taller-card{
+.home__grid--card{
     width: 500px;
-    height: 210px;
-    border: 1px solid white;
-    background-color: gray;
-    border-radius: 12px;
+    height: 150px;
+    // border: 1px solid white;
+    background-color: $CardColor;
+    border-radius: 15px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    margin: 15px 25px;
+
+    box-shadow: $BoxShadow;
 
     figure{
-        width: 150px;
+        width: 170px;
         height: inherit;
-        border: 1px solid white;
+        background-color: #001C30;
+        border-radius: 15px 0px 0px 15px;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .card__icon{
+            font-size: 60px;
+            color: #068FFF;
+        }
     }
 }
 
-.taller-card__details{
+.card__details{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
+
+/* Start Media Queries Screens 768px and 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .home__grid {
+        grid-template-columns: auto auto;
+    }
+
+  }
+  /* End Media Queries Screens 768px and 1023px */
+  
+  /* Start Media Queries Screens 767px */
+  @media screen and (max-width: 767px) {
+    .home__grid {
+        grid-template-columns: auto;
+    }
+  }
+  /* End Media Queries Screens 767px */

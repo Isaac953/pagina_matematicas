@@ -3,14 +3,26 @@ $mainColor: #1450A3;
 $mainTxtColor: white;
 
 main {
+    position: relative;
     height: 100vh;
+    background: url('../../assets/images/matematicas.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     background-color: $mainColor;
     color: $mainTxtColor;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    h1{
-        margin: 10px 0px;
-    }
 }
+
+main::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  
+    content: "";
+  
+    background-color: rgba(0, 0, 0, 0.65);
+  }
+  

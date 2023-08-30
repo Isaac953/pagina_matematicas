@@ -15,3 +15,4 @@ Proyecto creado a partir del curso práctico de JavaScript en Platzi realizado e
 - PMAT-03.2: **Agregando React Router Dom al proyecto**.
 - PMAT-03.3: **Haciendo prueba de consumo de una API**.
 - PMAT-03.4: **Haciendo prueba de pasar parametros entre componentes**.
+- PMAT-03.5: **Solventando rutas y diseño de home 70% terminado**.

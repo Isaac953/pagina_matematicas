@@ -14,7 +14,7 @@ export const Header = () => {
         {titleHeader}
       </h1>
 
-      <nav>
+      {/* <nav>
         <ul>
         <li>
             <Link to="/container">Container</Link>
@@ -29,7 +29,7 @@ export const Header = () => {
             <Link to="/home">Home</Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </header>
   );
 };
