@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pagina_matematicas/static/css/main.8ebc6c7d.css",
-    "main.js": "/pagina_matematicas/static/js/main.640216e8.js",
+    "main.css": "/pagina_matematicas/static/css/main.c8373785.css",
+    "main.js": "/pagina_matematicas/static/js/main.69346de0.js",
     "static/media/matematicas.jpg": "/pagina_matematicas/static/media/matematicas.bcacba40f2a70ee5595b.jpg",
     "index.html": "/pagina_matematicas/index.html",
-    "main.8ebc6c7d.css.map": "/pagina_matematicas/static/css/main.8ebc6c7d.css.map",
-    "main.640216e8.js.map": "/pagina_matematicas/static/js/main.640216e8.js.map"
+    "main.c8373785.css.map": "/pagina_matematicas/static/css/main.c8373785.css.map",
+    "main.69346de0.js.map": "/pagina_matematicas/static/js/main.69346de0.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ebc6c7d.css",
-    "static/js/main.640216e8.js"
+    "static/css/main.c8373785.css",
+    "static/js/main.69346de0.js"
   ]
 }
