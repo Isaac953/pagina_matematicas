@@ -8,7 +8,7 @@ import { fa4 } from "@fortawesome/free-solid-svg-icons";
 
 export const Home = () => {
   const mainTittle = "Talleres realizados";
-  const buttonTittle = "Contenido";
+  // const buttonTittle = "Contenido";
   let listTalleres = [
     {
       id: 0,
@@ -46,7 +46,7 @@ export const Home = () => {
       <h1>{mainTittle}</h1>
       <section className="home__grid">
         {listTalleres.map((item) => (
-          <div key={item} className="home__grid--card">
+          <div key={item.id} className="home__grid--card">
             <figure><FontAwesomeIcon icon={item.cover} className="card__icon" /></figure>
             <div className="card__details">
               <h2>{item.title}</h2>

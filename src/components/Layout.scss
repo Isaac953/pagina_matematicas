@@ -1,0 +1,132 @@
+@import "Flex.scss";
+@import "Colors.scss";
+
+/*Start Header Styles*/
+header {
+  height: 80px;
+  background-color: $headerColor;
+  @include display-flex;
+
+  h1 {
+    font-size: 32px;
+
+    a {
+      color: $textColor;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: $textColor;
+    }
+
+    .logo {
+      font-size: 37px;
+      color: $logoColor;
+      margin-right: 10px;
+    }
+  }
+}
+/*End Header Styles*/
+
+/*Start Main Styles*/
+main {
+  min-height: 100vh;
+  position: relative;
+  @include background;
+  background-color: $mainColor;
+  color: $textColor;
+}
+
+main::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  content: "";
+
+  background-color: $shadowColor;
+}
+/*End Main Styles*/
+
+/*Start Footer Styles*/
+footer {
+  height: 80px;
+  background-color: $headerColor;
+  @include display-flex;
+  span {
+    color: $textColor;
+    font-size: 16px;
+  }
+}
+/*End Footer Styles*/
+
+/* Start Media Queries Screens 768px and 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /*Start Header Styles*/
+  header {
+    height: 75px;
+
+    h1 {
+      font-size: 30px;
+
+      .logo {
+        font-size: 35px;
+      }
+    }
+  }
+  /*End Header Styles*/
+
+  /*Start Main Styles*/
+  main {
+    min-height: 150vh;
+  }
+  /*End Main Styles*/
+
+  /*Start Footer Styles*/
+  footer {
+    height: 75px;
+    span {
+      font-size: 14px;
+    }
+  }
+  /*End Footer Styles*/
+}
+
+/* End Media Queries Screens 768px and 1023px */
+
+/* Start Media Queries Screens 767px */
+@media screen and (max-width: 767px) {
+  /*Start Header Styles*/
+  header {
+    height: 70px;
+
+    h1 {
+      font-size: 28px;
+
+      .logo {
+        font-size: 33px;
+      }
+    }
+  }
+  /*End Header Styles*/
+
+  /*Start Main Styles*/
+  main {
+    min-height: 115vh;
+  }
+  /*End Main Styles*/
+
+  /*Start Footer Styles*/
+  footer {
+    height: 70px;
+    span {
+      font-size: 12px;
+    }
+  }
+  /*End Footer Styles*/
+}
+
+/* End Media Queries Screens 767px */

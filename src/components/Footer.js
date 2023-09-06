@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.scss";
+import "./Layout.scss";
 
 export const Footer = () => {
   const footerDescription = "Copyright © Isaac Arias 2023";

@@ -8,7 +8,7 @@ Proyecto creado a partir del curso práctico de JavaScript en Platzi realizado e
 - PMAT-02: **Diseño inicial de Layout con Sass completo**.
 - PMAT-02.5: **Deploy de aplicación en Git Hub pages**.
 
-## 02 Figuras Geométricas (August 20)
+## 02 Figuras Geométricas (August 20-29 && September 05)
 
 - PMAT-03: **Agregando ejercicio de perimetro de un cuadrado con Use Stage**.
 - PMAT-03.1: **Probando el gráfico lineal en componente**.
@@ -16,3 +16,4 @@ Proyecto creado a partir del curso práctico de JavaScript en Platzi realizado e
 - PMAT-03.3: **Haciendo prueba de consumo de una API**.
 - PMAT-03.4: **Haciendo prueba de pasar parametros entre componentes**.
 - PMAT-03.5: **Solventando rutas y diseño de home 70% terminado**.
+- REWORK-01: **Reorganización de código y componentes parte I**.
