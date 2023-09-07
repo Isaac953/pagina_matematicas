@@ -6,11 +6,12 @@ import { Link } from "react-router-dom";
 
 export const Header = () => {
   const titleHeader = "Página web de matemáticas";
+  const basename = "/pagina_matematicas";
 
   return (
     <header>
       <h1>
-        <Link to="/">
+        <Link to={basename}>
           <FontAwesomeIcon icon={faCalculator} className="logo" />
           {titleHeader}
         </Link>

@@ -1,0 +1,77 @@
+@import "../Colors.scss";
+
+.home{
+    position: inherit;
+    display: grid;
+    width: 100%;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+    h2{
+        margin: 10px 0px;
+        font-size: 26px;
+    }
+    .home__grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0px;
+        .home__grid--card{
+            width: 500px;
+            height: 150px;
+            // border: 1px solid white;
+            background-color: $cardColor;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 15px 25px;
+            span{
+                width: 170px;
+                height: inherit;
+                background-color: #001C30;
+                border-radius: 15px 0px 0px 15px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        
+                .card__icon{
+                    font-size: 60px;
+                    color: #068FFF;
+                }
+            }
+            .card__details{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                h3{
+                    font-size: 20px;
+                }
+                .btn-content{
+                    background: none;
+                    border: none;
+                    background-color: #c27c15;
+                    color: white;
+                    padding: 8px 14px;
+                    border-radius: 5px;
+                    text-decoration: none;
+                    cursor: pointer;
+                    margin-top: 5px;
+                    transition: 0.5s;
+                    font-weight: bold;
+                }
+                
+                .btn-content:hover{
+                    background-color: #FFA41B;
+                }
+            }
+            
+        }
+    }
+}
