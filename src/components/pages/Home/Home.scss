@@ -1,4 +1,4 @@
-@import "../Colors.scss";
+@import "../../Colors.scss";
 
 .home{
     position: inherit;
@@ -65,6 +65,7 @@
                     margin-top: 5px;
                     transition: 0.5s;
                     font-weight: bold;
+                    font-size: 14px;
                 }
                 
                 .btn-content:hover{
@@ -75,3 +76,67 @@
         }
     }
 }
+
+/* Start Media Queries Screens 768px and 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .home{
+        .home__grid{
+            grid-template-columns: auto auto;
+            .home__grid--card{
+                width: 360px;
+                height: 120px;
+                span{
+                    width: 160px;
+                    .card__icon{
+                        font-size: 55px;
+                    }
+                } 
+                .card__details{
+
+                    h3{
+                        font-size: 19px;
+                    }
+                    .btn-content{
+                        font-size: 13px;
+                    }
+                    
+                }  
+            }
+        }
+    }
+
+  }
+  
+  /* End Media Queries Screens 768px and 1023px */
+  
+  /* Start Media Queries Screens 767px */
+  @media screen and (max-width: 767px) {
+    .home{
+        .home__grid{
+            grid-template-columns: auto;
+            .home__grid--card{
+                width: 365px;
+                height: 115px;
+                span{
+                    width: 150px;
+                    .card__icon{
+                        font-size: 50px;
+                    }
+                }
+                .card__details{
+
+                    h3{
+                        font-size: 18px;
+                    }
+                    .btn-content{
+                        font-size: 12px;
+                    }
+                    
+                }  
+            }
+        }
+    }
+  }
+  
+  /* End Media Queries Screens 767px */
+  

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Layout.scss";
 import { Navigate, Outlet, Route, Routes } from "react-router-dom";
-import { Home } from "./pages/Home";
+import { Home } from "./pages/Home/Home";
 import { Cuadrado } from "./anterior/pages/Pruebas/Cuadrado/Cuadrado";
 import { Charts } from "./anterior/pages/Pruebas/Charts/Charts";
 import { Container } from "./anterior/pages/Pruebas/Container/Container";

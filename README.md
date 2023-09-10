@@ -18,3 +18,4 @@ Proyecto creado a partir del curso práctico de JavaScript en Platzi realizado e
 - PMAT-03.5: **Solventando rutas y diseño de home 70% terminado**.
 - REWORK-01: **Reorganización de código y componentes parte I**.
 - REWORK-02: **Reorganización de código y componentes parte II**.
+- REWORK-03: **Reorganización de código y componentes parte III**.

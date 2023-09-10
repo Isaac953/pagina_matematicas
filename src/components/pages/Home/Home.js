@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
-import "./Pages.scss";
+import React from "react";
+import "../Home/Home.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { fa1, fa2, fa3, fa4 } from "@fortawesome/free-solid-svg-icons";
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   const mainTittle = "Talleres realizados";
@@ -40,31 +40,6 @@ export const Home = () => {
     },
   ];
 
-  // const navigate = useNavigate();
-  // const handleClick = (route) => navigate(route, { replace: true });
-
-  let handleClick = () => {
-    useEffect = () => {
-      console.log("Se hizo click");
-    };
-  };
-
-  //   useEffect(() => {
-  // });
-
-  // useEffect(() => {
-  //   navigate.push(route);
-  // });
-
-  // useEffect((route) => {
-  //   navigate.current.navigate(route);
-  // });
-
-  // // Similar to componentDidMount and componentDidUpdate:
-  // useEffect(() => {
-  //   // Update the document title using the browser API
-  //   document.title = `You clicked ${count} times`;
-  // });
 
   return (
     <section className="home">
