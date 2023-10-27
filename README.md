@@ -2,13 +2,13 @@
 
 Proyecto creado a partir del curso práctico de JavaScript en Platzi realizado en React 18.
 
-## 01 Layout (August 17-20)
+## 01 Layout
 
 - PMAT-01: **Creación de proyecto y componentes Header, Main y Footer**.
 - PMAT-02: **Diseño inicial de Layout con Sass completo**.
 - PMAT-02.5: **Deploy de aplicación en Git Hub pages**.
 
-## 02 Figuras Geométricas (August 20-29 && September 05)
+## 02 Figuras Geométricas
 
 - PMAT-03: **Agregando ejercicio de perimetro de un cuadrado con Use Stage**.
 - PMAT-03.1: **Probando el gráfico lineal en componente**.
@@ -19,3 +19,4 @@ Proyecto creado a partir del curso práctico de JavaScript en Platzi realizado e
 - REWORK-01: **Reorganización de código y componentes parte I**.
 - REWORK-02: **Reorganización de código y componentes parte II**.
 - REWORK-03: **Reorganización de código y componentes parte III**.
+- REWORK-04: **Creación de componentes talleres 1 a 4**.
